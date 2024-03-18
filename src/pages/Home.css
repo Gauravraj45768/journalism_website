@@ -1,0 +1,29 @@
+.container{
+    background-color: aqua;
+}
+
+.homeContainer{
+  display: flex;
+justify-content: space-between;
+/* margin: 0 auto; */
+gap: 40px;
+
+
+justify-content: center;
+align-items: center;
+
+}
+
+
+.text-contentHome h1{
+    color: teal;
+    font-size: x-large;
+}
+/* .text-contentHome p{
+   align-items: flex-start;
+
+} */
+.homeImg{
+    width: 100%;
+    height: 240px;
+}
