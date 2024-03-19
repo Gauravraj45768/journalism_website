@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./all.css";
 import { GiNotebook } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
-    <div className="flex justify-between items-center  w-full px-2 sm:px-6 lg:px-8 h-16  bg-teal-400  fixed">
+    <div className=" navbar flex justify-between items-center   px-2 sm:px-6 lg:px-8 h-16  bg-teal-400  ">
       <NavLink to="/">
         <GiNotebook
           style={{

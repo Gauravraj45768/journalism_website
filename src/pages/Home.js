@@ -1,15 +1,15 @@
 import React from "react";
 // import img from "../assests/j2.jpeg";
 import "./Home.css";
-import { About } from "../components/About";
-import { Highlights } from "../components/Highlights";
-import Testimonials from "../components/Testimonials";
-import Course from "../components/Course";
+// import { About } from "../components/About";
+// import { Highlights } from "../components/Highlights";
+// import Testimonials from "../components/Testimonials";
+// import Course from "../components/Course";
 
 export const Home = () => {
   return (
     <div>
-      <diV
+      <div
         style={{
           display: "flex",
           backgroundImage: `url(${require("../assests/bg.png")})`,
@@ -36,11 +36,8 @@ export const Home = () => {
               
           </div>
         </div>
-      </diV>
-      <Course />
-      <About />
-      <Highlights></Highlights>
-      <Testimonials></Testimonials>
+      </div>
+   
     </div>
   );
 };

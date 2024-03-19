@@ -1,10 +1,8 @@
 import React from "react";
 
-import  Coursecard  from "./Coursecard";
+import Coursecard from "./Coursecard";
 
 const Course = () => {
-
-  
   return (
     <div>
       <Coursecard />

@@ -52,7 +52,6 @@ const Coursecard = () => {
                 >
                   Demo video
                 </button>
-                
               </div>
             </div>
           </div>
