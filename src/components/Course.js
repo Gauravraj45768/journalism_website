@@ -4,7 +4,11 @@ import Coursecard from "./Coursecard";
 
 const Course = () => {
   return (
-    <div>
+    <div >
+      <h1 className="relative text-center -bottom-20 text-3xl text-teal-800 z-300">
+        {" *"} 
+        Explore Our Courses{"*"}
+      </h1>
       <Coursecard />
     </div>
   );

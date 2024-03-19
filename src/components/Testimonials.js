@@ -20,9 +20,11 @@ const Testimonials = () => {
 
   return (
     <div>
-      <div className="bg-blue-300   ">
+      <div className="bg-blue-400   ">
         <div>
-          <h1 className="text-3xl py-5 text-black text-center">testimonials</h1>
+          <h1 className="relative  text-3xl py-10 -bottom-10 text-teal-800 text-center">
+            Testimonials
+          </h1>
         </div>
         <div className="testicontainer flex justify-evenly items-center w-3/12  ">
           <button

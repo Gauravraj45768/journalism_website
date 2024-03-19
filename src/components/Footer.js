@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import "./all.css";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
- const Footer = () => {
+const Footer = () => {
   return (
     <div className=" footer flex justify-around justtify-center  items-center  text-white  bg-gray-500 ">
       <div className="flex gap-3 mb-4">
@@ -16,15 +16,15 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
           Testimonial
         </NavLink>
         <NavLink className="active:text-violet-700" to="/highlight">
-          highlights
+          Highlights
         </NavLink>
         <NavLink className="active:text-violet-700" to="/course">
           Courses
         </NavLink>
       </div>
       <div>
-        <p>contact us</p>
 
+        <p>Contact us : 1234567890</p>
         <div className="space-x-4 flex mb-8">
           <NavLink to="#" className="text-gray-300 hover:text-black">
             <FaFacebook />
@@ -42,7 +42,6 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
       </div>
     </div>
   );
-}
-
+};
 
 export default Footer;

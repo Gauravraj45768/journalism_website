@@ -5,7 +5,7 @@ export const Highlights = () => {
   return (
     <div>
       <div className="highlightcontainer ">
-        <h1 className=" text-teal-800 text-2xl ">Course Highlights</h1>
+        <h1 className=" text-teal-800 text-2xl ">{"*"}Course Highlights{"*"}</h1>
         <p className="text-gray-700">
           <ol>
             <li>
