@@ -1,11 +1,5 @@
 import React from "react";
-// import img from "../assests/j2.jpeg";
 import "./Home.css";
-// import { About } from "../components/About";
-// import { Highlights } from "../components/Highlights";
-// import Testimonials from "../components/Testimonials";
-// import Course from "../components/Course";
-
 export const Home = () => {
   return (
     <div>
@@ -22,7 +16,7 @@ export const Home = () => {
       >
         <div className="homeContainer">
           <div className="text-contentHome">
-            <h1>Welcome to Mr.Arun'journalism Course </h1>
+            <h1>Welcome to Mr.Arun's Journalism Course </h1>
             <p className="text-black ">
               Comprehensive learning programs & classes <br></br> for all
               students Become lifelong learners with <br></br>over 30 years of

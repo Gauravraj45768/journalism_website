@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import testimonials from "./data";
 import "./all.css";
-// import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Testimonials = () => {
@@ -27,11 +26,8 @@ const Testimonials = () => {
             Testimonials
           </h1>
         </div>
-        <div className="testicontainer flex justify-evenly items-center w-3/12  ">
-          <button
-            onClick={prevSlide}
-            className=" left-0  top-1/2 transform -translate-y-1/2  text-black px-4 py-2 rounded-full "
-          >
+        <div className="testicontainer flex justify-evenly items-center w-4/12  ">
+          <button onClick={prevSlide}>
             <FaArrowLeft />
           </button>
           {testimonials
@@ -58,10 +54,7 @@ const Testimonials = () => {
               </div>
             ))}
 
-          <button
-            onClick={nextSlide}
-            className="right-0 top-1/2 transform -translate-y-1/2 text-black px-4 py-2 rounded-full "
-          >
+          <button onClick={nextSlide}>
             <FaArrowRight />
           </button>
         </div>
