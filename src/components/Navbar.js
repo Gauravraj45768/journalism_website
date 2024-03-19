@@ -1,11 +1,10 @@
-import React from 'react'
-// import logo from '../assests/journalism logo.png'
+import React from "react";
 
 import { GiNotebook } from "react-icons/gi";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
-    <div className="flex justify-between items-center mx-auto w-full px-2 sm:px-6 lg:px-8 h-16  bg-teal-400  fixed">
+    <div className="flex justify-between items-center  w-full px-2 sm:px-6 lg:px-8 h-16  bg-teal-400  fixed">
       <NavLink to="/">
         <GiNotebook
           style={{
@@ -43,7 +42,7 @@ export const Navbar = () => {
           </li>
           <li>
             <NavLink className="active:text-violet-700" to="/course">
-              courses
+              Courses
             </NavLink>
           </li>
         </ul>
@@ -57,4 +56,4 @@ export const Navbar = () => {
       </div>
     </div>
   );
-}
+};

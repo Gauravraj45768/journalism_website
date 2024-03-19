@@ -2,7 +2,7 @@ import React from 'react'
 import "./all.css"
 export const Highlights = () => {
   return (
-    <div className="highlightcontainer">
+    <div className="highlightcontainer ">
       <h1 className=" text-teal-800 text-2xl ">Course Highlights</h1>
       <p  className='text-gray-700'>
         <ol>

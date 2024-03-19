@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
  const Footer = () => {
   return (
-    <div className="flex justify-around justtify-center items-center  text-white  bg-gray-500">
+    <div className="flex justify-around justtify-center  items-center  text-white  bg-gray-500 ">
       <div className="flex gap-3 mb-4">
         <NavLink className="active:text-violet-700" to="/">
           Home
