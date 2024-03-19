@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import testimonials from "./data";
 import "./all.css";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+// import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,7 +32,7 @@ const Testimonials = () => {
             onClick={prevSlide}
             className=" left-0  top-1/2 transform -translate-y-1/2  text-black px-4 py-2 rounded-full "
           >
-            <BsArrowLeft />
+            <FaArrowLeft />
           </button>
           {testimonials
             .slice(currentIndex, currentIndex + 1)
@@ -61,7 +62,7 @@ const Testimonials = () => {
             onClick={nextSlide}
             className="right-0 top-1/2 transform -translate-y-1/2 text-black px-4 py-2 rounded-full "
           >
-            <BsArrowRight />
+            <FaArrowRight />
           </button>
         </div>
       </div>
