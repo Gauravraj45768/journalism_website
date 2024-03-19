@@ -4,6 +4,8 @@ import "./Home.css";
 import { About } from "../components/About";
 import { Highlights } from "../components/Highlights";
 import Testimonials from "../components/Testimonials";
+import Course from "../components/Course";
+
 export const Home = () => {
   return (
     <div>
@@ -15,7 +17,6 @@ export const Home = () => {
           backgroundPosition: "center",
           backgroundColor: "blue",
           justifyContent: "space-evenly",
-          // justifyItems: "baseline",
           width: "100%",
           height: "700px",
         }}
@@ -34,10 +35,10 @@ export const Home = () => {
           </div>
         </div>
       </diV>
+      <Course />
       <About />
       <Highlights></Highlights>
       <Testimonials></Testimonials>
-      
     </div>
   );
 };

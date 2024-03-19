@@ -7,15 +7,16 @@ export const Navbar = () => {
   return (
     <div className="flex justify-between items-center mx-auto w-full px-2 sm:px-6 lg:px-8 h-16  bg-teal-400  fixed">
       <NavLink to="/">
-               <GiNotebook style={{
-          color: "#FFF",
-          fontSize: "45px",
-          height: "100px",
-          marginTop: "7px",
-          width: "auto",
-          padding: "5px",
-
-}}></GiNotebook>
+        <GiNotebook
+          style={{
+            color: "#FFF",
+            fontSize: "45px",
+            height: "100px",
+            marginTop: "7px",
+            width: "auto",
+            padding: "5px",
+          }}
+        ></GiNotebook>
       </NavLink>
 
       <nav>
@@ -38,6 +39,11 @@ export const Navbar = () => {
           <li>
             <NavLink className="active:text-violet-700" to="/testimonial">
               Testimonials
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="active:text-violet-700" to="/course">
+              courses
             </NavLink>
           </li>
         </ul>
