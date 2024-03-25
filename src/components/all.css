@@ -31,9 +31,10 @@
     font-size: 18px;
     line-height: 1.4;
     width: 60%;
-    height: 60%;
+    height: 75%;
     margin: auto;
     text-align: left;
+    gap: 0;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
 
@@ -50,4 +51,8 @@
     width: 100%;
     padding:  10px;
     z-index:  -1000;
+}
+.coursecontainer{
+      width: 100vw;
+    height: 100vh;
 }

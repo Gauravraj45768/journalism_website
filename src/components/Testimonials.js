@@ -37,11 +37,12 @@ const Testimonials = () => {
                 key={index}
                 className="testimonial w-full h-auto flex flex-col justify-center items-center mx-12 left-16 border-2  text-center bg-slate-50 rounded-2xl p-4"
               >
-                <div className=" m-12 bg-violet-400 ">
+                <div className=" m-8 border-2 border-cyan-600	 bg-violet-400 ">
                   <img
                     src={testimonial.img}
-                    width={"150px"}
-                    height={"auto"}
+                    width={"100px"}
+                    height={"150px"}
+                    content="fit"
                     alt="Testimonial Avatar"
                   />
                 </div>
