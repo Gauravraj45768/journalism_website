@@ -12,7 +12,7 @@ import { Landingpage } from "./pages/Landingpage";
 function App() {
   return (
     <div>
-      <Navbar />      
+      <Navbar />
       <Routes>
         <Route path="/" element={<Landingpage />} />
         <Route path="/home" element={<Home />} />
@@ -23,8 +23,9 @@ function App() {
         <Route path="/course" element={<Course />} />
         <Route path="/login" element={<Enrolment />} />
         <Route path="/footer" element={<Footer />} />
+      
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

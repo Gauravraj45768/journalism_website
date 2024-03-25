@@ -28,7 +28,7 @@ function Enrolment() {
   }
 
   return (
-    <div className="w-[450px] h-200 mb-4 mx-auto mt-20 z-0">
+    <div className="w-[450px] h-100vh mb-4 mx-auto mt-20 z-0">
       <form
         onSubmit={submitHandler}
         className="flex flex-col  items-center h-fit border-l-emerald-100 border-2 w-[400px] p-4 z-100"
