@@ -120,6 +120,7 @@ img{
   justify-content: center;
   align-items: center;
   margin: 20px;
+  
 }
 
 .coursecard {
@@ -276,4 +277,159 @@ top:60px;
 
 .coursecard-button:hover {
   background-color: #2b6cb0;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+
+  .coursecard-container{
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  }
+  .coursecard{
+     width: 350px;
+  margin: 20px;
+  }
+
+
+  .aboutcontainer{
+    height: 400px;
+    padding: 10px 20px;
+    margin-top: 40px;
+  }
+  .highlightcontainer{
+     height: 400px;
+    padding: 10px 20px;
+    margin-top: 40px;
+  }
+  
+}
+
+
+
+
+/* all.css */
+
+/* Base styles for the footer */
+.footer {
+  padding: 20px;
+  background-color: #6b7280; /* bg-gray-500 */
+  color: white;
+  text-align: center;
+}
+
+.footer .nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .footer .nav-links {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  .footer {
+    justify-content: space-between;
+  }
+}
+
+
+
+/* all.css */
+
+/* Base styles for the navbar */
+.navbar {
+  padding: 0 1rem;
+  background-color: #38b2ac; /* bg-teal-400 */
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar nav ul li a {
+  color: #f8fafc; /* text-richblack-100 */
+  text-decoration: none;
+}
+
+.navbar nav ul li a:hover,
+.navbar nav ul li a.active {
+  color: #7f9cf5; /* active:text-violet-700 */
+}
+
+.navbar .enroll-button {
+  background-color: #2d3748; /* bg-richblack-800 */
+  padding: 8px 12px;
+  color: #f8fafc;
+  border: 1px solid #2a2a2a; /* border-richblack-700 */
+  border-radius: 8px;
+}
+
+.navbar .enroll-button:hover {
+  background-color: #38b2ac; 
+}
+
+.navbar .menu-toggle {
+  display: none;
+ 
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  .navbar nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background-color: #38b2ac;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar nav ul.active {
+    display: flex;
+  }
+
+  .navbar .menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .navbar .menu-toggle.active {
+    position: absolute;
+    top: 18px;
+    right: 16px;
+  }
 }

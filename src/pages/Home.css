@@ -44,3 +44,60 @@ align-items: center;
 .animation-complete {
   opacity: 1; /* Ensure the text is fully visible after animation */
 }
+
+
+/* Home.css */
+
+/* Base styles for the home container */
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.text-contentHome {
+  margin-bottom: 20px;
+}
+
+.text-contentHome h1 {
+  font-size: 2rem;
+}
+
+.text-contentHome p {
+  font-size: 1rem;
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) {
+  .homeContainer {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .text-contentHome h1 {
+    font-size: 2.5rem;
+  }
+
+  .text-contentHome p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  .homeContainer {
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .text-contentHome h1 {
+    font-size: 3rem;
+  }
+
+  .text-contentHome p {
+    font-size: 1.5rem;
+  }
+}
