@@ -27,3 +27,20 @@ align-items: center;
     width: 100%;
     height: 240px;
 }
+
+/* Define the animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply animation to the text */
+.animation-text {
+  opacity: 0; /* Initially hide the text */
+  animation: fadeIn 2s forwards; /* Run the animation once and keep the final state */
+}
+
+/* Define the final state of the animation */
+.animation-complete {
+  opacity: 1; /* Ensure the text is fully visible after animation */
+}

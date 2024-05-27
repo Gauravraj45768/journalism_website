@@ -11,7 +11,7 @@ import Enrolment from "./components/Enrolment";
 import { Landingpage } from "./pages/Landingpage";
 function App() {
   return (
-    <div>
+    <div >
       <Navbar />
       <Routes>
         <Route path="/" element={<Landingpage />} />
